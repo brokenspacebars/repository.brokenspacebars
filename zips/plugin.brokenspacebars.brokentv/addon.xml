@@ -1,25 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<addons>
-<addon id="repository.brokenspacebars" name="BrokenRepo" version="0.0.1" provider-name="brokenspacebars">
-    <extension point="xbmc.addon.repository" name="Example Repository">
-        <dir>
-		<info compressed="false">https://raw.githubusercontent.com/brokenspacebars/repository.brokenspacebars/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/brokenspacebars/repository.brokenspacebars/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/brokenspacebars/repository.brokenspacebars/master/zips/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>BrokenRepo</summary>
-        <description>Repository for brokenspacebars addons</description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.brokenspacebars.brokentv" name="BrokenTV" version="0.0.8" provider-name="iamninja">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
@@ -49,4 +28,3 @@
         </assets>
     </extension>
 </addon>
-</addons>
