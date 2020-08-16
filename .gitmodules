@@ -1,3 +1,6 @@
 [submodule "plugin.brokenspacebars.brokentv"]
 	path = plugin.brokenspacebars.brokentv
 	url = https://github.com/iamninja/plugin.brokenspacebars.brokentv.git
+[submodule "plugin.brokenspacebars.brokenanime"]
+	path = plugin.brokenspacebars.brokenanime
+	url = https://github.com/iamninja/plugin.brokenspacebars.brokenanime.git
