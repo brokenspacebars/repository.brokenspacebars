@@ -33,8 +33,12 @@ git pull
 git commit -am "Update <addon> to <version>"
 git push origin master
 ```
+- Run the script
+```
+python _repo_xml_generator.py
+```
 Alternatively you can update all submodules at once using,
 ```
 git submodule foreach git pull origin master
 ```
-And then commit/push
+And then commit/push/run-script
